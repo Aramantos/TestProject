@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web&display=swap');
+
+/*-------------------------Body */
+
+.background {
+    background: url('/assets/images/internet.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+/*-------------------------Header */
+
+header{
+    margin-top: 200px;
+    color: #fff;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    }
+
+    #menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    color: #fff;
+    background-color: rgba(60,60,60, 0.6);
+}
+
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    margin-right: 30px;
+    color: #fff;
+    font-size: 200%;
+    font-style: none;
+    background-color: rgba(60,60,60, 0.6);
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active{
+     border-bottom: 1px solid #777777;
+}
+
+/*-------------------------Footer */
+
+/*-------------------------Colours */
+
