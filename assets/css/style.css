@@ -3,7 +3,7 @@
 /*-------------------------Body */
 
 .background {
-    background: url('/assets/images/internet.jpeg');
+    background: url('../images/internet.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,7 +41,6 @@ a{
     text-decoration: none;
     font-size: 150%;
     margin: 0px 50px;
-    text-align: middle;
     position: relative;
     padding-top: 10px;
     }
@@ -70,7 +69,7 @@ footer p{
 .cv-pdf i{
     font-size: 18px;
     color: #fafafa;
-    text-align: center;-al
+    text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -86,6 +85,7 @@ footer p{
     padding-bottom: 15px;
 }
 
+/*-------------------------Footer */
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -114,8 +114,10 @@ footer p{
 
 .para{
      margin: 80px 0px;
+     overflow: hidden;
  }
 
+/*-------------------------Footer */
  .intro-para{
     text-align: center;
     font-size: 200%;
@@ -199,7 +201,6 @@ footer p{
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo" sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -237,3 +238,45 @@ footer p{
     color: #fafafa;
 }
 
+/*-------------------------Media Queries */
+
+@media screen and (max-width: 320px) {
+
+.www-nav-items{
+    margin: 0;
+}
+
+.intro-para{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 90%;
+}
+
+.intro-para-first{
+    margin-top: 20px;
+}
+
+.intro-para-third{
+    margin-bottom: 20px;
+}
+
+.intro-para-first, .intro-para-second, .intro-para-third{
+    margin-right:  10px;
+    margin-left: 10px;
+}
+.history {
+    margin: 0;
+    width: 100%
+}
+
+.people{
+    margin: 0;
+    width: 100%
+}
+    
+  .h1, h1 {
+    font-size: 1.8rem;
+  }
+
+}
