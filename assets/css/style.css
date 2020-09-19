@@ -7,11 +7,12 @@ body {
 }
 
 .background {
-    background: url('../images/internet.jpeg');
+    background: url('../images/internet.jpeg') no-repeat no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: rgba(34, 33, 33, 1);
     max-width: 100%;
     height: auto;
     
@@ -20,6 +21,10 @@ body {
 a{
      color: #fafafa;
      text-align: center;
+ }
+
+ .underline{
+     text-decoration: underline;
  }
 
 
@@ -43,9 +48,9 @@ a{
     color: #fff;
     text-decoration: none;
     font-size: 150%;
-    margin: 0px 50px;
     position: relative;
     padding-top: 10px;
+    letter-spacing: 1.2px;
     }
 
 .www-nav-items a:hover{
@@ -56,6 +61,20 @@ a{
     text-decoration: underline;
 }
 
+.list-inline-item, .www-nav-items{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.navbar-brand{
+    margin: 0 !important;
+}
+
+.www-nav-items{
+    margin: 0px 10px;
+}
+
+
 /*-------------------------Footer */
 
 footer{
@@ -63,6 +82,8 @@ footer{
     min-height: 120px;
     margin: 0;
     text-align: center;
+    /*vertical-align: bottom;
+    position: fixed;*/
 }
 
 footer p{
@@ -171,6 +192,19 @@ footer p{
     padding: 50px;
 
 }
+
+section p {
+    margin-top: 60px;
+}
+
+#people-title{
+    margin-top: 25px;
+}
+
+#dave-raggett{
+    background-color: #fafafa;
+}
+
 /*-------------------------History */
 
 .history{
@@ -288,11 +322,33 @@ footer p{
     width: 100%;
     padding: 0;
 }
+
+#people-title{
+    margin-top: 50px;
+}
     
   .h1, h1 {
     font-size: 1.8rem;
   }
 
+}
+
+@media screen and (max-width: 767px) {
+
+#brand-right{
+    margin-left: 
+}
+
+}
+
+@media screen and (max-width: 700px) {
+
+footer{
+    margin: 0px 50px;
+}
+
+#people-title{
+    margin-top: 50px;
 }
 
 }
@@ -331,7 +387,11 @@ footer p{
     margin: 0;
     width: 100%
 }
-    
+
+#people-title{
+    margin-top: 50px;
+}
+
   .h1, h1 {
     font-size: 1.8rem;
   }
