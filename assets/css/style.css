@@ -155,7 +155,7 @@ footer p {
   padding: 50px;
 
   animation-name: intro-para-zoom;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
 }
 
@@ -309,7 +309,7 @@ section img {
 
 @media screen and (max-width: 970px) {
   .www-nav-items {
-    margin: 0;
+    margin: 0px 10px;
   }
 
   .intro-para {
@@ -350,7 +350,7 @@ section img {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
   footer {
     margin: 0px 50px;
   }
@@ -364,6 +364,15 @@ section img {
   }
 }
 
+.md-m-0{
+    margin: 0;
+    padding: 0;
+}
+
+.intro-para-first, .intro-para-second, .intro-para-third {
+    margin: 40px 0px;
+    padding: 0;
+}
 @media screen and (max-width: 320px) {
   .navbar-brand,
   .www-nav-items,
